@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellectual Character</title>
+    <link rel="stylesheet" href="intellectual.css">
+    <script src="https://kit.fontawesome.com/04520be2d5.js" crossorigin="anonymous"></script>
+    <style>
+        /* General page styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container layout */
+        .container {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Header styling */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #ff3c3c; /* Red highlight */
+        }
+
+        /* Flexbox layout for image and text */
+        .row {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            flex-wrap: wrap; /* stacks on smaller screens */
+        }
+
+        /* Image styling */
+
+        /* Text content beside image */
+        .row div {
+            flex: 1;
+            line-height: 1.7;
+        }
+
+        /* Paragraph text */
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #ff3c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #cc2f2f;
+        }
+
+        .user-image {
+        width: 300px;
+        border-radius: 10px;
+        border: 2px solid #ff3c3c;
+        }
+
+        .award-image {
+        width: 700px; 
+        border-radius: 10px;
+        border: 2px solid #ff3c3c;
+        }
+    </style>
+</head>
+<body>
+    <h2>Below are some of the other activities that I've done:</h2>
+    <figure>
+        <img src="images/fire.jpg" alt="Activities Photo" class="award-image">
+        <img src="images/iceclimbing.jpg" alt="Activities Photo" class="award-image">
+        <img src="images/terryfox.jpg" alt="Activities Photo" class="award-image">
+        <img src="images/robot.jpg" alt="Activities Photo" class="award-image">
+    </figure>
+    <a href="index.html" class="btn">Back to Home</a>
+</body>
+</html>

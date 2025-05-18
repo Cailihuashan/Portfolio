@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellectual Character</title>
+    <link rel="stylesheet" href="intellectual.css">
+    <script src="https://kit.fontawesome.com/04520be2d5.js" crossorigin="anonymous"></script>
+    <style>
+        /* General page styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container layout */
+        .container {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Header styling */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #ff3c3c; /* Red highlight */
+        }
+
+        /* Flexbox layout for image and text */
+        .row {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            flex-wrap: wrap; /* stacks on smaller screens */
+        }
+
+        /* Image styling */
+
+        /* Text content beside image */
+        .row div {
+            flex: 1;
+            line-height: 1.7;
+        }
+
+        /* Paragraph text */
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #ff3c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #cc2f2f;
+        }
+
+        .user-image {
+        width: 300px;
+        border-radius: 10px;
+        border: 2px solid #ff3c3c;
+        }
+
+        .award-image {
+        width: 700px; 
+        border-radius: 10px;
+        border: 2px solid #ff3c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center">Intellectual Character</h1>
+        <div class="row" style="display: flex; align-items: flex-start; gap: 20px;">
+            <div>
+                <p>
+                    One area of success highlighted in my most recent report card is my ability to maintain a high level of achievement, which was supported by my excellent behavior and willingness to seek clarification and assistance when needed. I also took on a leadership role in group work and large group settings, which allowed me to further develop my communication and collaboration skills. Academically, I am proud of my 96 average, which shows my consistent effort and dedication. However, I still believe there is room for improvement, and I aim to push myself further to achieve an even higher average.
+                </p>
+                <br>
+                <p>The success I’ve experienced in my courses can be attributed to several factors. I have a genuine interest in the subjects I am studying, and I am committed to understanding and applying the material. The curiosity, along with strategic review habits and independent study, played a major role in my academic performance. I also have a clear understanding of how to effectively prepare for assessments, which helps me stay confident and well-prepared.</p>
+                <br>
+                <p>In terms of areas of growth, my French class is definitely the only one. While I have maintained a steady performance, I recognize that there is room for great improvement—particularly in my speaking and listening skills. Reinforcing in these areas is a key focus for me moving forward.</p>
+                <img src="images/intaward.png" alt="Award Photo" class="award-image">
+                <br>
+                <p>French is also the one course I find most challenging. To address this, I have set a SMART goal for myself: by the end of this term, I aim to improve my oral French skills by attending at least one extra help session each week and practicing speaking for ten minutes a day. To support this goal and my overall learning, I also rely on a structured weekly calendar to organize my study time, track deadlines, and plan when I’ll attend extra support sessions.</p>
+                <img src="images/schedule.png" alt="Schedule Photo" class="award-image">
+            </div>
+        </div>
+        <a href="index.html#characters" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>

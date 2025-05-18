@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellectual Character</title>
+    <script src="https://kit.fontawesome.com/04520be2d5.js" crossorigin="anonymous"></script>
+    <style>
+        /* General page styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container layout */
+        .container {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Header styling */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #ff3c3c; /* Red highlight */
+        }
+
+        /* Flexbox layout for image and text */
+        .row {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            flex-wrap: wrap; /* stacks on smaller screens */
+        }
+
+        /* Image styling */
+
+        /* Text content beside image */
+        .row div {
+            flex: 1;
+            line-height: 1.7;
+        }
+
+        /* Paragraph text */
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #ff3c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #cc2f2f;
+        }
+
+        .user-image {
+        width: 300px;
+        border-radius: 10px;
+        border: 2px solid #ff3c3c;
+        }
+
+        .award-image {
+        width: 700px; 
+        border-radius: 10px;
+        border: 2px solid #ff3c3c;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+
+        figure figurecaption {
+            text-align: center;
+            font-style: italic;
+            color: #ff3c3c; /* Red highlight */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center">Performance Character</h1>
+        <div class="row" style="display: flex; align-items: flex-start; gap: 20px;">
+            <figure>
+                <img src="images/performanceaward.png" alt="Award Photo" class="award-image">
+            </figure>
+
+            <div>
+                <h2>Embrace New Challenge Outside Classroom</h2>
+                <p>This year during OE, we went to British Columbia for a kayaking trip. It was my first time doing such intense water activities, and the conditions were extremely challenging. There were no guaranteed washroom facilities, and water was limited because there were no fresh sources near our beach campsites. We had to share toiletries, everything was constantly damp, bugs were everywhere, and sand got into everything—including our food and gear.</p>
+                <img src="images/beach.jpg" alt="Team Photo" class="award-image">
+                <p>Despite these hardships, I ended up having a great time because we were all in it together. The shared struggle brought me closer to my friends, and we supported each other throughout the experience. We worked together to cope, and I learned that with teamwork and a positive mindset, even the most uncomfortable situations can become meaningful and even enjoyable.</p>
+                <img src="images/kayak.jpg" alt="Team Photo" class="award-image">
+                <p>What I still have to work on is, by the end of the trip, I am still not used to being in the wilderness and having to do all the things myself. Sanitation was the biggest challenge since we couldn’t shower or stay clean all the time. For someone who takes a shower almost every day, it was horrible. I genuinely detest being dirty, and I don’t plan on fixing it. </p>
+                <img src="images/sanitation.jpg" alt="Team Photo" class="award-image">
+            </div>
+
+            <div>
+                <h2>Embrace New Challenge Inside Classroom</h2>
+                <p>In Computer Science, we’re currently working on our final exam project. Since I’m deeply interested in this course, I decided to challenge myself and create something ambitious: a Flask based dynamic website using SQLite database and SQLAlchemy.</p>
+                <p>My project allows users to securely create accounts and interact with gamified productivity tools. For example, users earn points for completing tasks using an interactive calendar or task manager. These points can be spent in a shop to unlock additional features. The task manager initially starts with only three options (Add Task, Delete Task, Set Duration), and points are earned based on how long it takes users to complete tasks—encouraging real productivity and avoiding easy exploitation. The site also includes a leaderboard for friendly competition.</p>
+                <img src="images/website.png" alt="Website Screenshot" class="award-image">
+                <p>This was a huge challenge because many of the skills and tools I used—like secure login systems, front-end design, and database management—weren’t covered in class. I had to teach myself through research, seek help when stuck, and dedicate time outside of school to build it all from scratch within a month.</p>
+                <p>I pushed myself far beyond the assignment’s basic requirements because I wanted a final product that I could be proud of, share with others, and even showcase on my resume. It wasn’t easy, but through consistent effort, problem-solving, and a clear goal, I created something I believe truly demonstrates excellence.</p>
+                <p>Here's the link if you haven't already visited it yet:</p>
+                <a href="index.html" class="btn">My Website</a>
+                <br>
+                <p>Here are some other <a href="activities.html">activities</a> that I've done if you're interested.</p>
+            </div>
+        </div>
+        <a href="index.html#characters" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
